@@ -661,6 +661,7 @@ svg.icon--sm {
   height: 100%;
   object-fit: contain;
 }
+.project__thumb--cover img { object-fit: cover; }
 .card--project:hover .project__thumb { transform: scale(1.03); }
 .project__thumb--a { background: linear-gradient(135deg, #ceced3, #dcdcdc); }
 .card--project .card__content {
