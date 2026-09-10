@@ -423,18 +423,21 @@
 
           <article class="card card--project">
             <div class="project__thumb project__thumb--c" aria-hidden="true"></div>
-            <div class="card__header"><h3 class="card__title">This Portfolio</h3></div>
+            <div class="card__header"><h3 class="card__title">Walmart Product Scraper</h3></div>
             <div class="card__content">
               <p class="text-muted">
-                The site you're looking at — hand-built in plain HTML, CSS, and JavaScript with no frameworks or
-                build step. Light/dark theming via CSS custom properties, a responsive grid layout, and a mobile
-                menu, deployed straight from GitHub Pages on a custom domain.
+                A Chrome extension + FastAPI backend that turns raw Walmart product pages into structured
+                data across three storefronts (walmart.com, walmart.ca, walmart.com.mx). A layered extraction
+                pipeline — JSON-LD, Next.js <code>__NEXT_DATA__</code> state, then CSS selectors — recovers
+                title, price, images, and item IDs even as page structure shifts, while a multi-stage regex
+                pipeline classifies condition and grade across inconsistent listing formats. Results
+                auto-export to Google Sheets, cutting manual lookup from minutes to seconds.
               </p>
               <div class="tags">
-                <span class="badge badge--secondary">HTML</span>
-                <span class="badge badge--secondary">CSS</span>
-                <span class="badge badge--secondary">JavaScript</span>
-                <span class="badge badge--secondary">GitHub Pages</span>
+                <span class="badge badge--secondary">Python</span>
+                <span class="badge badge--secondary">FastAPI</span>
+                <span class="badge badge--secondary">Web Scraping</span>
+                <span class="badge badge--secondary">Google Sheets</span>
               </div>
               <div class="project__links">
                 <a class="btn btn--outline btn--sm" href="https://github.com/samiam621/sams-portfolio" target="_blank" rel="noopener">
