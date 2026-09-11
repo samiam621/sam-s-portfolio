@@ -498,8 +498,7 @@
 
           <form class="card contact__form" action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="2ad25226-7fcd-4cc9-a63c-b6de38297a50">
-            <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-            <div class="h-captcha" data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"></div>
+            
             <div class="card__header"><h3 class="card__title">Send a Message</h3></div>
             <div class="card__content">
               <div class="form-row">
@@ -508,6 +507,8 @@
               </div>
               <input class="input" type="text" name="subject" placeholder="Subject" required>
               <textarea class="input" name="message" placeholder="Your Message" rows="5" required></textarea>
+            <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+            <div class="h-captcha" data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"></div>
               <button class="btn btn--primary btn--block" type="submit">
                 <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
                 Send Message
